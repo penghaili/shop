@@ -1,0 +1,80 @@
+body html{
+    width:100%;
+    height:100%;  
+}
+.shopCart{
+    width:100%;
+    height:100%;
+    display: flex;
+    flex-direction: column;
+}
+header{
+    height:.4rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:0 .1rem;
+}
+header :nth-child(2){
+    font-size: .20rem;
+    text-align: center;
+}
+.cartContent{
+    flex:1;
+    overflow-y: scroll;
+    background: #eee;
+}
+.cartButton{
+    height:.6rem;
+}
+ul li{
+    height:1.5rem;
+    display: flex;
+    align-items: center;
+    padding-left: .1rem;
+    margin-bottom: .1rem;
+    background: #fff;
+}
+ul li input{
+    width:.2rem;
+    height:.2rem;
+}
+dl{
+    height:1rem;
+    display: flex;
+}
+dl dt{
+    height: .7rem;
+}
+dl dt img{
+    height:1rem;
+    margin:0 .05rem;
+}
+dl dd p{
+    width:1.7rem;
+    line-height: .2rem;
+}
+.con{
+    line-height: .7rem;
+}
+.con :nth-child(3){
+    width:.5rem;
+    height:.3rem;
+    text-align: center;
+}
+.con span{
+    width:.3rem;
+    height:.3rem;
+    line-height: .3rem;
+    text-align: center;
+    display: inline-block;
+    border:1px solid #ccc;
+    background: #fff;
+}
+.text{
+	overflow : hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+}
